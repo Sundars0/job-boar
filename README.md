@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is simple stylish Job Board website with jobs based on categories. Built using Ruby on Rails(5.0.0.1)
+
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - 2.3.0
 
-* System dependencies
+* Additional Gems used - haml, simple-form, bootstrap-sass
 
-* Configuration
+* Database - sqlite3
 
-* Database creation
+* Deployment instructions - bundle install, rails db:migrate, rails server
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
