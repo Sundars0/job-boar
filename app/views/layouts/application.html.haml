@@ -1,0 +1,11 @@
+!!! 5
+%html
+%head
+  %title RoR Jobs
+  = csrf_meta_tags
+  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+  = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+%body
+  - Category.all.each do |c|
+    = link_to c.name, jobs_path(category: c.name)
+  = yield
